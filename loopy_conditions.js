@@ -127,14 +127,14 @@ function calculate(operator, num1, num2){
 		output = num1 - num2;
 	}
 	if (operator == "multiply") {
-		 output = num1 * num2;
+		output = num1 * num2;
 	}
 	if (operator == "divide") {
 		output = num1 / num2;
 	}
 	else {
-		output = "Invalid operator";
+		return "Invalid operator";
 	}
 }
-calculate("multiply", 20, 5);
+calculate("add", 20, 5);
 console.log(output);
