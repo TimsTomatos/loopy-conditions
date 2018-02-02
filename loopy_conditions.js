@@ -29,14 +29,15 @@ console.log(greaterNumber(8,7))
  * @param  { Number } n
  * @return { String }
  */
- var n;
+ var string = "";
 function stringOfNumbers(n) {
-	for (i = 0; i < n.length; i--) {
-		
-	}
+	for (i = 0 ; i < n ; i++) {
+		string += i;
+		}
+		return string;
 	
 }
-console.log(stringOfNumbers(6));
+console.log(stringOfNumbers(10));
 
 /**
  * Create a function called 'sumOfArray'.
